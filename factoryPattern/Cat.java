@@ -1,23 +1,28 @@
 package factoryPattern;
 
-public class Cat implements Pet {
+public class Cat implements Pet 
+{
     private Integer noOfLives;
 
-    public Integer getNoOfLives() {
+    public Integer getNoOfLives() 
+    {
         return noOfLives;
     }
 
-    public void setNoOfLives(Integer noOfLives) {
+    public void setNoOfLives(Integer noOfLives) 
+    {
         this.noOfLives = noOfLives;
     }
 
     @Override
-    public String makeSound() {
-        return "Meow, meow!";
+    public String makeSound() 
+    {
+        return "Meowww, meowww!";
     }
 
     @Override
-    public String play() {
+    public String play() 
+    {
         return "Catching/pursuing moving objects!";
     }
 }
